@@ -117,24 +117,12 @@ OPTD = $(ROOT)\bin.$(DETOURS_OPTION_PROCESSOR)$(DETOURS_CONFIG)
 INCDS = $(ROOT)\include
 
 LIBDS = \
-        $(ROOT)\lib.x86$(DETOURS_CONFIG) \
         $(ROOT)\lib.x64$(DETOURS_CONFIG) \
-        $(ROOT)\lib.ia64$(DETOURS_CONFIG) \
-        $(ROOT)\lib.arm$(DETOURS_CONFIG) \
-        $(ROOT)\lib.arm64$(DETOURS_CONFIG) \
 
 BINDS = \
-        $(ROOT)\bin.x86$(DETOURS_CONFIG) \
         $(ROOT)\bin.x64$(DETOURS_CONFIG) \
-        $(ROOT)\bin.ia64$(DETOURS_CONFIG) \
-        $(ROOT)\bin.arm$(DETOURS_CONFIG) \
-        $(ROOT)\bin.arm64$(DETOURS_CONFIG) \
 
 OBJDS = \
-        obj.x86$(DETOURS_CONFIG) \
         obj.x64$(DETOURS_CONFIG) \
-        obj.ia64$(DETOURS_CONFIG) \
-        obj.arm$(DETOURS_CONFIG) \
-        obj.arm64$(DETOURS_CONFIG) \
 
 ##############################################################################
